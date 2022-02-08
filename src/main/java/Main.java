@@ -8,6 +8,7 @@ public class Main {
 
         TransportCompany transportCompany = context.getBean("transportCompany", TransportCompany.class);
         transportCompany.typeTransport();
+        System.out.println(transportCompany.getManager());
 
         context.close();
     }
