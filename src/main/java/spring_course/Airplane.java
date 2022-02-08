@@ -6,6 +6,10 @@ import org.springframework.stereotype.Component;
 public class Airplane implements Transport{
     @Override
     public void movingPlace() {
-        System.out.println("Перемещается по воздуху");
+        System.out.println("Летит");
+    }
+
+    public Airplane() {
+        System.out.println("Создали самолёт");
     }
 }
